@@ -1,4 +1,6 @@
 .link {
-  color: cadetblue;
-  background-color: chartreuse;
+  color: #212121;
+}
+.link > :hover {
+  color: #2196f3;
 }
