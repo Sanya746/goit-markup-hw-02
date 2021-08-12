@@ -1,19 +1,19 @@
-.title {
+.header {
   color: rgba(240, 248, 255, 0);
 }
-.title:hover {
+.header:hover {
   color: #ffffff00;
 }
-.title:focus {
+.header:focus {
   color: black;
 }
-.title .link {
+.header .link {
   color: #2196f3;
 }
-.title .link:focus {
+.header .link:focus {
   color: #2196f3;
 }
-.title .link:hover {
+.header .link:hover {
   color: black;
 }
 /* Навигация сайта*/
