@@ -1,22 +1,14 @@
 .title {
-  position: absolute;
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+  color: rgba(240, 248, 255, 0);
+}
+.title:hover {
+  color: #ffffff00;
+}
+.title:focus {
+  color: black;
 }
 .title .link {
-  position: absolute;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
+  color: #2196f3;
 }
 .title .link:focus {
   color: #2196f3;
@@ -24,22 +16,25 @@
 .title .link:hover {
   color: black;
 }
+/* Навигация сайта*/
+.nav {
+  color: #2195f300;
+}
 .nav .link {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   color: #000000;
 }
 .nav .link:hover {
   color: #2196f3;
 }
 .nav .link:focus {
+  color: #2196f3;
+}
+.email {
+  color: #2196f3;
+}
+.email:hover {
+  color: #000000;
+}
+.email:focus {
   color: #2196f3;
 }
