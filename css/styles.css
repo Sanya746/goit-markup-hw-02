@@ -46,17 +46,24 @@
 }
 .tel:focus {
   color: #2196f3;
-  /* Main */
+}
+
+/* Main */
+.main {
+  color: #2195f300;
 }
 .main .text {
-  color: #0de64349;
+  color: #0de6436e;
 }
 .main .button {
-  color: #0de64349;
+  color: #0de64377;
 }
-.work .h3 {
+.post {
+  color: #ffffff00;
+}
+.h3 {
   color: #212121;
 }
-.h3 .p {
+.p {
   color: #757575;
 }
