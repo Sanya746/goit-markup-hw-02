@@ -1,6 +1,5 @@
-.link {
-  color: #212121;
-}
-.link > :hover {
+.test-link: hover
+.test-link :focus 
+.test-link .link {
   color: #2196f3;
 }
