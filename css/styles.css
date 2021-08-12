@@ -38,3 +38,18 @@
 .email:focus {
   color: #2196f3;
 }
+.tel {
+  color: #000000;
+}
+.tel:hover {
+  color: #2196f3;
+}
+.tel:focus {
+  color: #2196f3;
+}
+.main .text {
+  color: #0de64349;
+}
+.main .button {
+  color: #0de64349;
+}
