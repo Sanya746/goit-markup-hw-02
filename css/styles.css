@@ -49,7 +49,11 @@
 }
 
 /* Main */
+.paje {
+  list-style: none;
+}
 .main {
+  list-style: none;
   color: #2195f300;
 }
 .main .text {
@@ -61,9 +65,55 @@
 .post {
   color: #ffffff00;
 }
+.list {
+  list-style: none;
+}
 .h3 {
   color: #212121;
 }
 .p {
   color: #757575;
+}
+.working {
+  list-style: none;
+}
+.h2 {
+  color: #212121;
+}
+.foto-work {
+  list-style: none;
+}
+.foto-team {
+  list-style: none;
+}
+.basement {
+  list-style: none;
+}
+.basement .link:focus {
+  color: #2196f3;
+}
+.basement .link:hover {
+  color: #000000;
+}
+.basement .address {
+  color: #0fec1a86;
+}
+.basement .email {
+  color: #0fec1a86;
+}
+.basement .email:hover {
+  color: #2196f3;
+}
+.basement .email:focus {
+  color: #2196f3;
+}
+
+.basement .tel {
+  color: #0fec1a86;
+}
+.basement .tel:hover {
+  color: #2196f3;
+}
+.basement .tel:focus {
+  color: #2196f3;
 }
