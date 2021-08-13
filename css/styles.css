@@ -107,6 +107,9 @@
 
 /*-------------HERO------------------*/
 
+.main {
+  background-color: var(--main-title-color);
+}
 .main-sections {
   background: #2f303a;
 }
@@ -149,10 +152,33 @@
 .main-button-portfolio:hover {
   background-color: var(--accent-color);
 }
+
+.sections-subtitle {
+  background-color: var(--main-title-color);
+}
+.sektions-link {
+  list-style: none;
+}
+.sektions-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.sektions-item-link:focus,
+.sektions-item-link:hover {
+  color: var(--accent-color);
+}
+.sektions-item-link:active {
+  color: var(--accent-color);
+}
 .post {
   background: #e5e5e5;
+  list-style: none;
 }
 .post-list {
+  background-color: var(--main-title-color);
   list-style: none;
 }
 .post-pre-text {
@@ -167,7 +193,7 @@
 }
 
 .working {
-  background: #e5e5e5;
+  background-color: var(--main-title-color);
 }
 .foto-work {
   list-style: none;
