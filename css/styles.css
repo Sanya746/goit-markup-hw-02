@@ -16,6 +16,7 @@
 
 .list {
   list-style: none;
+  text-decoration: none;
 }
 
 .pre-text {
@@ -29,24 +30,27 @@
 
 /*-------------HEADER-----------------*/
 
-.header-list {
+.header {
   background-color: var(--main-title-color);
 }
-.header-logo {
+.header-list {
   font-family: Raleway;
-  font-style: 700;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
-.header-logo:hover,
-.header-logo:focus {
+.header-list:hover,
+.header-list:focus {
   color: var(--accent-color);
 }
-.header-logo:active {
+.header-list:active {
   color: var(--accent-color);
+}
+.Web {
+  color: #2196f3;
 }
 .header-nav {
   list-style: none;
@@ -55,7 +59,7 @@
   color: var(--main-text-color);
   list-style: none;
 }
-.header-link link {
+.header-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -123,9 +127,26 @@
 .main-button:hover {
   color: var(--main-title-color);
 }
+.btn {
+  color: var(--main-title-color);
+  cursor: pointer;
+}
 .btn:hover,
 .btn:focus {
-  color: var(--third-text-color);
+  color: var(--main-text-color);
+}
+.main-button-portfolio {
+  color: var(--main-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.main-button-portfolio:focus,
+.main-button-portfolio:hover {
+  background-color: var(--accent-color);
 }
 .post {
   background: #e5e5e5;
