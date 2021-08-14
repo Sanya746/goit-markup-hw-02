@@ -22,8 +22,6 @@
 
 .pre-text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -180,7 +178,8 @@
   list-style: none;
 }
 .sektions-item-link{
-  list-style: none; 
+  list-style: none;
+  text-decoration: none; 
 }
 .sektions-item-link {
   cursor: pointer;
@@ -200,7 +199,7 @@
   color: var(--accent-color);
 }
 .post {
-  list-style: none;
+  text-decoration: none;
 }
 .post-list {
   list-style: none;
