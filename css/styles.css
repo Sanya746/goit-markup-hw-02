@@ -36,7 +36,7 @@
 }
 .header-list {
   font-family: Raleway;
-  font-style: normal;
+  font-style: 700;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -61,6 +61,8 @@
   list-style: none;
 }
 .header-link {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -77,11 +79,13 @@
 }
 
 .header-email {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: #757575;
 }
 .header-email:focus,
 .header-email:hover {
