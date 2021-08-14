@@ -7,7 +7,8 @@
   --accent-color: #2196f3;
 }
 .body {
-  font-family: "Open Sana", sans-serif;
+  font-family: "Roboto","Raleway",sans-serif;
+
 }
 
 .link {
@@ -118,21 +119,32 @@
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 13.6;
+  line-height: 1.36;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
 .main-button {
   cursor: pointer;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-family: Roboto;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--third-text-color);
+
 }
 .main-button:focus,
 .main-button:hover {
-  color: var(--main-title-color);
+  color: var(--accent-color);
 }
 .btn {
-  color: var(--main-title-color);
+  color: var(--accent-color);
 }
 .btn:hover,
 .btn:focus {
@@ -181,7 +193,7 @@
 }
 .post-pre-text {
   font-family: Roboto;
-  font-style: normal;
+  font-style: 700;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -259,10 +271,12 @@
   color: var(--third-text-color);
 }
 .footer-email {
-  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--third-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-email:focus,
 .footer-email:hover {
@@ -272,10 +286,12 @@
   color: var(--accent-color);
 }
 .footer-tel {
-  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  color: var(--third-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:focus,
 .footer-tel:hover {
