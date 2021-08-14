@@ -7,7 +7,7 @@
   --accent-color: #2196f3;
 }
 .body {
-  font-family: "Roboto","Raleway",sans-serif;
+  font-family: "Raleway","Roboto",sans-serif;
 
 }
 
@@ -22,10 +22,11 @@
 
 .pre-text {
   font-family: Roboto;
-  font-style: 400;
-  font-weight: normal;
-  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
@@ -37,7 +38,6 @@
 .header-list {
   font-family: Raleway;
   font-style: 700;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -52,6 +52,13 @@
 }
 .Web {
   color: #2196f3;
+}
+.Web:hover,
+.Web:focus{
+  color: var(--main-text-color);
+}
+.Web:active{
+  color: var(--main-text-color);
 }
 .header-nav {
   list-style: none;
@@ -135,20 +142,17 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: var(--third-text-color);
+  background-color: var(--accent-color);
+  color: var(--accent-color);
 
 }
 .main-button:focus,
 .main-button:hover {
+  background-color: var(--main-title-color);
   color: var(--accent-color);
 }
 .btn {
-  color: var(--accent-color);
+  color: var(--third-text-color);
 }
 .btn:hover,
 .btn:focus {
@@ -195,11 +199,11 @@
 .post-list {
   list-style: none;
 }
-.post-pre-text {
+.post-list .post-list-text {
   font-family: Roboto;
-  font-style: 700;
-  font-weight: bold;
-  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
