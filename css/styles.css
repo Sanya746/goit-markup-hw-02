@@ -23,7 +23,20 @@
 .pre-text {
   font-family: Roboto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.item-text{
+  text-decoration: none;
+}
+.item-text{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -200,22 +213,22 @@
 .sektions-item-link:active {
   color: var(--accent-color);
 }
-.post {
-  text-decoration: none;
-}
-.post-list {
+.title{
   list-style: none;
 }
-.post-pre-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: #212121;
+.title-list{
+  list-style: none;
 }
-
+.title-list-text{
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.14;
+ letter-spacing: 0.03em;
+ text-transform: uppercase;
+ color: var(--main-text-color);
+}
 .working {
   background-color: var(--main-title-color);
 }
