@@ -261,6 +261,16 @@
   color: #212121;
 }
 
+.post-pre-text{
+  font-family: Roboto;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 2;
+letter-spacing: 0.06em;
+color: var(--main-text-color);
+}
+
 /*--------------FOOTER--------------*/
 .footer {
   width: 1600px;
