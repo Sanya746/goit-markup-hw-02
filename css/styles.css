@@ -35,9 +35,6 @@
 }
 .item-text{
   font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
@@ -63,16 +60,7 @@
 .header-list:active {
   color: var(--accent-color);
 }
-.Web {
-  color: #2196f3;
-}
-.Web:hover,
-.Web:focus{
-  color: var(--main-text-color);
-}
-.Web:active{
-  color: var(--main-text-color);
-}
+
 .header-nav {
   list-style: none;
 }
